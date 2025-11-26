@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaDB", "NinjaDB\NinjaDB.csproj", "{FE631D24-155B-4954-8CF5-348C1DE3F9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaLedgerDB_Test", "NinjaLedgerDB_Test\NinjaLedgerDB_Test.csproj", "{3D543B0E-3B46-41AF-9761-2314F924DDE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE631D24-155B-4954-8CF5-348C1DE3F9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE631D24-155B-4954-8CF5-348C1DE3F9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE631D24-155B-4954-8CF5-348C1DE3F9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE631D24-155B-4954-8CF5-348C1DE3F9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D543B0E-3B46-41AF-9761-2314F924DDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D543B0E-3B46-41AF-9761-2314F924DDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D543B0E-3B46-41AF-9761-2314F924DDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D543B0E-3B46-41AF-9761-2314F924DDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D87283B2-0ECF-423A-BA9C-DB940DEA4B22}
+	EndGlobalSection
+EndGlobal
