@@ -1,0 +1,6 @@
+@NinjaDB.API_HostAddress = http://localhost:5101
+
+GET {{NinjaDB.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
