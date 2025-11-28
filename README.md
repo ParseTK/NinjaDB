@@ -1,11 +1,11 @@
 # Dockerized .NET Web API + MicrosoftSQL (EFCore)
 
-##P rerequisites
+## Prerequisites
 - [x] Docker Desktop
 - [x] .NET SDK
 - [x] Clone Repo
 
-##B uild API Container
+## Build API Container
 ```bash
 docker-compose up -d --build
 ```
