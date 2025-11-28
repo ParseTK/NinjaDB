@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using NinjaDB.Data;
 using NinjaDB.Interfaces;
 using NinjaDB.Services;
@@ -14,7 +14,6 @@ builder.Services.AddControllers()
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 // Add DbContext with connection string from configuration
 var connectionString = builder.Configuration.GetConnectionString("NinjaLedgerDB");
@@ -45,6 +44,13 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+// ✅ Auto‑apply EF Core migrations at startup
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<NinjaLedgerDbContext>();
+    dbContext.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())

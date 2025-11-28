@@ -15,7 +15,7 @@ namespace NinjaDB.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // This empty override keeps tests working (they pass their own options)
+            // Keep this empty (they pass their own options)
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
